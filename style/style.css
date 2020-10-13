@@ -50,6 +50,17 @@ body{
     display: flex;
     justify-content: center;
 }
+.vector_img {
+    animation: spinVector 5s infinite linear;
+}
+@keyframes spinVector {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .header_name{
     width: 100%;
     display: flex;
